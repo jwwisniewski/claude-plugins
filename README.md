@@ -37,6 +37,10 @@ Monitors context usage and reminds you to save learnings before the context wind
 }
 ```
 
+## Security
+
+See [SECURITY.md](./SECURITY.md) for the security review report.
+
 ## License
 
 MIT
