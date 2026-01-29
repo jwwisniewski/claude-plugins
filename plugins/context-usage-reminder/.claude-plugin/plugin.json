@@ -1,0 +1,13 @@
+{
+  "name": "context-usage-reminder",
+  "description": "Monitors context usage and reminds you to save learnings before the context window fills up",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jakub Wisniewski",
+    "email": "jakub.wisniewski@example.com",
+    "url": "https://github.com/jakubwisniewski"
+  },
+  "repository": "https://github.com/jakubwisniewski/context-usage-reminder",
+  "license": "MIT",
+  "keywords": ["context", "reminder", "hooks", "claude-md"]
+}

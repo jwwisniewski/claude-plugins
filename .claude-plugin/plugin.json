@@ -1,8 +1,0 @@
-{
-  "name": "context-usage-reminder",
-  "description": "Monitors context usage and reminds you to save learnings before the context window fills up",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jakub Wisniewski"
-  }
-}

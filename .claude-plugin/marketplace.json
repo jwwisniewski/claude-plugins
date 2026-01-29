@@ -1,12 +1,13 @@
 {
-  "name": "context-usage-reminder",
+  "name": "claude-plugins",
   "owner": {
-    "name": "Jakub Wisniewski"
+    "name": "Jakub Wisniewski",
+    "url": "https://github.com/jwwisniewski"
   },
   "plugins": [
     {
       "name": "context-usage-reminder",
-      "source": ".",
+      "source": "./plugins/context-usage-reminder",
       "description": "Monitors context usage and reminds you to save learnings before the context window fills up",
       "version": "1.0.0"
     }
