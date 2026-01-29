@@ -5,9 +5,9 @@
   "author": {
     "name": "Jakub Wisniewski",
     "email": "jakub.wisniewski@example.com",
-    "url": "https://github.com/jakubwisniewski"
+    "url": "https://github.com/jwwisniewski"
   },
-  "repository": "https://github.com/jakubwisniewski/context-usage-reminder",
+  "repository": "https://github.com/jwwisniewski/claude-plugins",
   "license": "MIT",
   "keywords": ["context", "reminder", "hooks", "claude-md"]
 }
