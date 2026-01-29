@@ -1,5 +1,6 @@
-# Claude Code local settings
+# Claude Code local settings (not the plugin manifest)
 .claude/
+!.claude-plugin/
 
 # Python
 __pycache__/

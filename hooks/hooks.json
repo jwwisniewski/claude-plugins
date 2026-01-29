@@ -1,15 +1,12 @@
 {
-  "env": {
-    "CONTEXT_REMINDER_MAX_TOKENS": "200000",
-    "CONTEXT_REMINDER_THRESHOLD": "0.95"
-  },
+  "description": "Context usage reminder hook",
   "hooks": {
     "PostToolUse": [
       {
         "hooks": [
           {
             "type": "command",
-            "command": "~/.claude/hooks/context-reminder.py",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/context-reminder.py",
             "timeout": 30
           }
         ]

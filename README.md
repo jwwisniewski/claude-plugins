@@ -11,6 +11,29 @@ A Claude Code hook that monitors context usage and reminds you to save learnings
 
 ## Installation
 
+### Via Plugin (Recommended)
+
+```bash
+# Add the marketplace
+/plugin marketplace add YOUR_USERNAME/claudehook
+
+# Install the plugin
+/plugin install context-reminder@claudehook
+```
+
+Then add the environment variables to your `~/.claude/settings.json`:
+
+```json
+{
+  "env": {
+    "CONTEXT_REMINDER_MAX_TOKENS": "200000",
+    "CONTEXT_REMINDER_THRESHOLD": "0.95"
+  }
+}
+```
+
+### Manual Installation
+
 1. Copy the hook script to your Claude hooks directory:
 
 ```bash

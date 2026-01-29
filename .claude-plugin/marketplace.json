@@ -1,0 +1,14 @@
+{
+  "name": "claudehook",
+  "owner": {
+    "name": "Jakub Wisniewski"
+  },
+  "plugins": [
+    {
+      "name": "context-reminder",
+      "source": ".",
+      "description": "Monitors context usage and reminds you to save learnings before the context window fills up",
+      "version": "1.0.0"
+    }
+  ]
+}
