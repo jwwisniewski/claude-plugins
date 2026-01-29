@@ -1,4 +1,4 @@
-# Context Reminder Hook for Claude Code
+# Context Usage Reminder for Claude Code
 
 A Claude Code hook that monitors context usage and reminds you to save learnings to CLAUDE.md before the context window fills up.
 
@@ -15,10 +15,10 @@ A Claude Code hook that monitors context usage and reminds you to save learnings
 
 ```bash
 # Add the marketplace
-/plugin marketplace add YOUR_USERNAME/claudehook
+/plugin marketplace add YOUR_USERNAME/context-usage-reminder
 
 # Install the plugin
-/plugin install context-reminder@claudehook
+/plugin install context-usage-reminder
 ```
 
 Then add the environment variables to your `~/.claude/settings.json`:
