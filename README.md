@@ -1,4 +1,4 @@
-# Claude Plugins
+# JWWisniewski Plugins
 
 [![Tests](https://github.com/jwwisniewski/claude-plugins/actions/workflows/test.yml/badge.svg)](https://github.com/jwwisniewski/claude-plugins/actions/workflows/test.yml)
 
