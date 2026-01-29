@@ -1,5 +1,7 @@
 # Claude Plugins
 
+[![Tests](https://github.com/jwwisniewski/claude-plugins/actions/workflows/test.yml/badge.svg)](https://github.com/jwwisniewski/claude-plugins/actions/workflows/test.yml)
+
 A collection of Claude Code plugins by Jakub Wisniewski.
 
 ## Installation
