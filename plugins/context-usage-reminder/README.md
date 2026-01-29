@@ -11,7 +11,16 @@ Monitors context usage and reminds you to save learnings to CLAUDE.md before the
 
 ## Configuration
 
-Environment variables (set in `settings.json` under `env`):
+Optional - customize in `~/.claude/settings.json`:
+
+```json
+{
+  "env": {
+    "CONTEXT_REMINDER_MAX_TOKENS": "200000",
+    "CONTEXT_REMINDER_THRESHOLD": "0.90"
+  }
+}
+```
 
 | Variable | Default | Description |
 |----------|---------|-------------|
